@@ -1,0 +1,218 @@
+body {
+    background-image: url(images/ggbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'HelveticaNeue LT 33 ThinEx Regular', sans-serif;
+}
+
+#navbar {
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 10%;
+    z-index: 1000;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.nav-item {
+    margin-bottom: 20px;
+}
+
+.nav-header {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-text {
+    color: white;
+}
+
+.blue {
+    color: dodgerblue;
+    font-size: 25px;
+    font-weight: 300;
+}
+.orange { 
+    color: orange;
+    font-size: 25px;
+    font-weight: 300;
+}
+.yellow { 
+    color: yellow;
+    font-size: 25px;
+    font-weight: 300;
+}
+.pink { 
+    color: hotpink; 
+    font-size: 25px;
+    font-weight: 300;
+}
+.green {
+    color: chartreuse; 
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#overlay {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#overlay img {
+    width: 100%;
+    height: auto;
+}
+
+#center-box {
+    margin-top: 10%;
+    background-color: white;
+    padding: 20px;
+    padding-top: 0;
+    text-align: center;
+    position: absolute;
+    max-width: 350px;
+    height: 62vh;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    border-radius: 5%;
+}
+
+#center-box img {
+    width: 90%;
+    height: auto;
+}
+
+a:link {
+    color: dodgerblue;;
+}
+
+a:visited {
+    color: dodgerblue;;
+}
+
+a:hover {
+    color: white;
+}
+
+#center-box .box-content p {
+    font-family: Verdana, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.gossip-text {
+    color: dodgerblue;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+}
+
+.circle-buttons-container {
+    position: fixed;
+    right: 27%;
+    top: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.circle-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: palegoldenrod;
+    position: relative;
+}
+
+.circle-button img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 50%;
+    top: 5%;
+    left: 15%;
+}
+
+.circle-text {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-top: 60%;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue LT 33 ThinEx Regular';
+    src: url('fonts/HelveticaNeue\ LT\ 33\ ThinEx\ Regular.ttf') format('truetype');
+  }
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        width: 50%;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        position: static;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .nav-header {
+        font-size: 14px;
+    }
+
+    #center-box {
+        margin-top: 10px;
+        max-width: 100%;
+        border-radius: 0;
+        position: static;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    .circle-buttons-container {
+        position: static;
+        margin-top: 10px;
+        margin-right: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .circle-button {
+        margin-bottom: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .circle-text {
+        margin-top: 43px;
+        font-size: 12px;
+    }
+
+    #center-box .box-content p, .gossip-text {
+        font-size: 12px;
+    }
+
+    .nav-text {
+        margin-top: 5px;
+    }
+}
