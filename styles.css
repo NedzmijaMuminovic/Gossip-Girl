@@ -181,7 +181,7 @@ a:hover {
     }
 
     .nav-header {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #center-box {
@@ -221,6 +221,7 @@ a:hover {
 
     .nav-text {
         margin-top: 5px;
+        font-size: 10px;
     }
 
     #overlay img {
