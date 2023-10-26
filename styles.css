@@ -173,6 +173,7 @@ a:hover {
         padding: 5px;
         text-align: center;
         position: static;
+        margin-top: 5%;
     }
 
     .nav-item {
@@ -225,13 +226,13 @@ a:hover {
     }
 
     #overlay img {
-        width: 150%;
+        width: 160%;
     }
 
     #overlay {
         position: fixed;
         top: 20px;
-        left: 35%;
+        left: 30%;
         transform: translateX(-50%);
     }
 }
