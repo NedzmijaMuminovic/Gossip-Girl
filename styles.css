@@ -181,12 +181,11 @@ a:hover {
     }
 
     #center-box {
-        margin-top: 10px;
-        max-width: 100%;
+        max-width: 50%;
         position: static;
         margin-right: 10px;
-        padding: 20px;
-        height: 43vh;
+        padding: 10px;
+        height: 41vh;
     }
 
     #center-box .box-content h3 {
@@ -203,12 +202,12 @@ a:hover {
 
     .circle-button {
         margin-bottom: 10px;
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 
     .circle-text {
-        margin-top: 43px;
+        margin-top: 33px;
         font-size: 12px;
     }
 
