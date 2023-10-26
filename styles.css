@@ -185,8 +185,12 @@ a:hover {
         max-width: 100%;
         position: static;
         margin-right: 10px;
-        padding: 10px;
+        padding: 20px;
         height: 43vh;
+    }
+
+    #center-box .box-content h3 {
+        margin-top: 5px;
     }
 
     .circle-buttons-container {
