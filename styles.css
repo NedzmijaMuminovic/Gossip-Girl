@@ -173,7 +173,7 @@ a:hover {
         padding: 5px;
         text-align: center;
         position: static;
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     .nav-item {
@@ -199,7 +199,7 @@ a:hover {
 
     .circle-buttons-container {
         position: static;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-right: 10px;
         align-items: center;
         text-align: center;
