@@ -185,7 +185,7 @@ a:hover {
         position: static;
         margin-right: 10px;
         padding: 10px;
-        height: 41vh;
+        height: 45vh;
     }
 
     #center-box .box-content h3 {
@@ -217,5 +217,16 @@ a:hover {
 
     .nav-text {
         margin-top: 5px;
+    }
+
+    #overlay img {
+        width: 150%;
+    }
+
+    #overlay {
+        position: fixed;
+        top: 20px;
+        left: 35%;
+        transform: translateX(-50%);
     }
 }
