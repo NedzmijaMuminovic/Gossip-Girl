@@ -190,7 +190,7 @@ a:hover {
         position: static;
         margin-right: 10px;
         padding: 10px;
-        height: 45vh;
+        height: 42vh;
     }
 
     #center-box .box-content h3 {
@@ -215,6 +215,10 @@ a:hover {
         margin-top: 33px;
         font-size: 12px;
     }
+
+    #center-box .box-content p:not(.gossip-text) br {
+        display: none;
+    }    
 
     #center-box .box-content p, .gossip-text {
         font-size: 12px;
