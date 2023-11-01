@@ -26,13 +26,7 @@ To view the website locally, follow these simple steps:
     git clone https://github.com/NedzmijaMuminovic/Gossip-Girl
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd Gossip-Girl
-    ```
-
-3. Open the `index.html` file in your preferred web browser.
+2. Navigate to the project directory and open the `index.html` file in your preferred web browser.
 
 Now, you can enjoy the nostalgic vibes of the Gossip Girl website - because who can resist the allure of the Upper East Side? xoxo
 
