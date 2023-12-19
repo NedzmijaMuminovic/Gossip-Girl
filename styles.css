@@ -190,7 +190,8 @@ a:hover {
         position: static;
         margin-right: 10px;
         padding: 10px;
-        height: 40vh;
+        height: auto;
+        z-index: 1001;
     }
 
     #center-box .box-content h3 {
